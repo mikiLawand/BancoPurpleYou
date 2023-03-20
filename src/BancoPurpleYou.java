@@ -1,5 +1,24 @@
-public class App {
-    public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
-    }
+import java.util.List;
+public class BancoPurpleYou {
+    
+    private String nome;
+	private List<Conta> contas;
+
+	
+    public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public List<Conta> getContas() {
+		return contas;
+	}
+
+	public void setContas(List<Conta> contas) {
+		this.contas = contas;
+	}
+
 }
